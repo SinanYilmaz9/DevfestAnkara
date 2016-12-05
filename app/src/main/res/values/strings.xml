@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Firebase</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="menu_login">Giris</string>
+    <string name="menu_logout">Çıkış Yap</string>
+    <string name="login_label">Giris Yap</string>
+    <string name="email_label">Email</string>
+    <string name="password_label">parola</string>
+    <string name="send_text">Gönder</string>
+    <string name="title_sign_in">Hosgeldiniz</string>
+    <string name="sign_up">Hesap Olustur</string>
+    <string name="hint_password">parola</string>
+    <string name="hint_email">email</string>
+    <string name="sign_in">Giris Yap</string>
+    <string name="heading_recent">En Yeniler</string>
+    <string name="heading_my_posts">Gönderilerim</string>
+    <string name="heading_my_top_posts">En İyi Gönderilerim</string>
+</resources>
