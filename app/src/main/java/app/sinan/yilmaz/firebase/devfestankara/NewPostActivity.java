@@ -169,16 +169,14 @@ public class NewPostActivity extends BaseActivity {
     }
 
     @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-
-        if(requestCode == GALLERY_REQUEST && resultCode==RESULT_OK);
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (requestCode == GALLERY_REQUEST && resultCode == RESULT_OK) {
 
         image = data.getData();
 
             mImageButton.setImageURI(image);
 
-    }
+    }}
     private void writeNewPost(String userId, String username, String title, String body, String imageUrl) {
         // Yeni bir post olustur  /user-posts/$userid/$postid ve
         // /posts/$postid aynı anda her iki yolda
